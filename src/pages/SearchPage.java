@@ -3,11 +3,11 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class searchPage {
+public class SearchPage {
 	
 	WebDriver driver;
 	
-	public searchPage(WebDriver driver) {
+	public SearchPage(WebDriver driver) {
 		this.driver = driver;
 		
 	}
