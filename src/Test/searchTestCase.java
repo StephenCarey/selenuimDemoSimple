@@ -34,7 +34,7 @@ public class searchTestCase {
 		homePage home = new homePage(driver);
 		assertTrue(home.selectCountry(countryToSelect));
 		assertEquals("The correct URL was not found after clicking "+countryToSelect,
-				"http://www.sqs.com/ir/index.php",driver.getCurrentUrl());
+				"http://www.sqs.com/ire/index.php",driver.getCurrentUrl());
 		//fail("Not yet implemented");
 	}
 	
