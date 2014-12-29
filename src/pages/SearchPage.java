@@ -12,6 +12,10 @@ public class SearchPage {
 		
 	}
 	
+	/**
+	 * 
+	 * @return The number of search results returned. 
+	 */
 	public int searchResult() {
 		
 		String[] resultText = driver.findElement(By.className("searchHeader1")).getText().split(" ");
