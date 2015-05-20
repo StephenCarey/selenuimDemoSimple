@@ -15,7 +15,7 @@ import sqsSite.pages.SearchPage;
 import junitparams.*;
 
 @RunWith(JUnitParamsRunner.class)
-public class SearchTestCaseParam {
+public class SearchParamTest {
 
     WebDriver driver;
     String searchTerm = "SQS";

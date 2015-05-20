@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import sqsSite.pages.HomePage;
 import sqsSite.pages.SearchPage;
 
-public class SearchTestCase {
+public class SearchTest {
    
    WebDriver driver;
    String searchTerm = "SQS";
