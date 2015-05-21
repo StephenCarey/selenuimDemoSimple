@@ -13,3 +13,5 @@ This will generate all of your reporting assets. These assets can be found in *t
 
 Once this is done you can use the following command for subsequent runs.
 ##### mvn surefire-report:report
+
+This is a basic starting point now go play, break, google, fix and learn. 
