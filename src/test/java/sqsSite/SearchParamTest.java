@@ -33,7 +33,7 @@ public class SearchParamTest {
     }
 
     @Test
-    @Parameters({"selenium, 1","SQS, 25","test, 162"})
+    @Parameters({"selenium, 14","SQS, 25","test, 397"})
     public void searchTestCase(String searchTerm,int searchCount) {
         HomePage home = new HomePage(driver);
         SearchPage search = home.searchFor(searchTerm);
