@@ -1,4 +1,4 @@
-selenuimDemoSimple
+Simple Selenuim Demo
 ==================
 
 A simple selenium demo
