@@ -33,11 +33,11 @@ public class SearchParamTest {
     }
 
     @Test
-    @Parameters({"selenium, 14","SQS, 25","test, 397"})
+    @Parameters({"selenium, 25","SQS, 25","test, 397"})
     public void searchTestCase(String searchTerm,int searchCount) {
         HomePage home = new HomePage(driver);
         SearchPage search = home.searchFor(searchTerm);
-        assertEquals("http://www.sqs.com/en-group/_meta/search.php?search_item="+searchTerm,driver.getCurrentUrl());
+        assertEquals("https://www.sqs.com/en-group/_meta/search.php?search_item="+searchTerm,driver.getCurrentUrl());
         assertEquals("The search count for "+searchTerm+" didnt match",searchCount,search.searchResult());
     }
     
